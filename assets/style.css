@@ -1,0 +1,61 @@
+html {
+    background-color: #e7fffe;
+}
+
+p {
+    color:blue;
+}
+
+h2.change-text{
+    color: rgb(195, 186, 61);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+}
+
+h2.change-text:hover{
+    color: #df2b8e; /* Меняем цвет текста */
+}
+
+a {
+    color: rgb(145, 147, 145);
+}
+
+.block {
+    width: 260px;
+    background-color: rgb(241, 237, 181);
+    border: 2px solid rgb(128, 119, 119);
+    padding: 20px 10px 20px 30px;
+}
+
+img { 
+    display:block;
+    margin: 0 auto;
+}
+
+.polaroid {
+    position: relative;
+}
+
+.polaroid img {
+    -webkit-box-shadow: 3px 3px 6px 4px #888;
+    -moz-box-shadow: 3px 3px 6px 4px #888;
+    box-shadow: 3px 3px 6px 4px #888;
+    margin: 0 0;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    color: rgb(243, 162, 64);
+    background-color: rgb(246, 252, 173);
+}
+
+.activeBox {
+    color: rgb(234, 100, 100);
+    background-color: rgb(241, 242, 232);
+}
+
+.active {
+    color: rgb(82, 241, 24);
+}
